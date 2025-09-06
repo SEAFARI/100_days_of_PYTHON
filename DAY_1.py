@@ -10,6 +10,7 @@ print("Hello"+ " "+ input("what is your name?")+ "!") # adding exclamation mark 
 
 ## use control + / to convert and entire line to a comment
 
+## len function dosent work with integers
 username = input("What is your name?")
 length = len(username)
 print("Length of your name is: "+ str(length))
