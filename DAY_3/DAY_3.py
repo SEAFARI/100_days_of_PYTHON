@@ -50,3 +50,29 @@ elif bmi>=18.5 and bmi < 25:
 else:
     print("overweight")
 
+
+## Multiple IF
+
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+
+if height >= 120:
+    print("You can ride the rollercoaster")
+    age = int(input("What is your age? "))
+    if age <= 12:       ## first if
+        bill = 5
+        print("The ticket price is $5.")
+    elif age <= 18:
+        bill = 7
+        print("The ticket price is $7.")
+    else:
+        bill = 12
+        print("The ticket price is $12.")
+
+    wants_photo = input("Do you want a photo?? Type Y for yes and N for no")
+    if wants_photo == "Y":    ## Second if, Multiple IF statements implemented here for the same indendation level
+        ## Add three dollas to the bill
+        bill += 3
+    print(f"Your total bill is: {bill}")
+else:
+    print("Sorry you have to grow taller before you can ride.")
