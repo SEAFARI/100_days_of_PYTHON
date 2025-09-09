@@ -103,4 +103,11 @@ if extra_cheese == "Y":
 print(f"Your total bill is: {bill}")
 
 
+## LOGICAL OPERATORS
+''' 
+A and B #Both conditions need to be true
+C or D #Only one condition needs to be true
+not E #The condition must be false
+
+'''
 
